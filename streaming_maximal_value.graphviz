@@ -1,0 +1,14 @@
+# cat streaming_maximal_value.graphviz | dot -Tpng > maximal.png
+
+digraph unix {
+  size="12,10";
+  node [color=lightblue2, style=filled fontsize=25 fontname=noto];
+  "Speaker Equippable Mic" -> "Mic Base Station";
+  "Mic Base Station" -> "Lecture Mixer Device + RTMP Stream Publisher";
+  "Ceiling Mounted Camera" -> "Lecture Mixer Device + RTMP Stream Publisher";
+  "HDMI out from A/V Box" -> "Lecture Mixer Device + RTMP Stream Publisher";
+  "Lecture Mixer Device + RTMP Stream Publisher" -> "Projector";
+  "Lecture Mixer Device + RTMP Stream Publisher" -> "RTMP Service (e.g. Youtube)";
+  "RTMP Service (e.g. Youtube)" -> "noisebridge.net/";
+  "RTMP Service (e.g. Youtube)" -> "noisebridge.net/moodle??";
+}
