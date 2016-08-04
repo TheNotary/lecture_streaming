@@ -1,0 +1,21 @@
+# cat streaming_minimal_value.graphviz | dot -Tsvg > minimal.svg
+
+digraph unix {
+  size="12,10";
+  node [color=lightblue2, style=filled fontsize=25 fontname=noto];
+  labelloc="t";
+  labelfontsize=20;
+  label="Cheapest way to increment the streaming value of a lecture point at NB";
+
+  size="12,10";
+  node [color=lightblue2, style=filled fontsize=25 fontname=noto];
+  "Micro Usb + iPhone 5v charging cords" -> "Ceiling/ Wall mounted smartphone mount";
+  "Ceiling/ Wall mounted smartphone mount" -> "Presenter's smartphone";
+
+  "A table for a Laptop" -> "Presenter's Laptop";
+  "Presenter's Laptop" -> "A/V Box";
+  "Presenter's Laptop" -> "Mic";
+  "Presenter's Laptop" -> "Screen Recorder";
+
+  "Post Production Work to Join Cam to screencast and Audio" -> ".mp4";
+}

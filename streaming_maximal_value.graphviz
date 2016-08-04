@@ -1,4 +1,4 @@
-# cat streaming_maximal_value.graphviz | dot -Tpng > maximal.png
+# cat streaming_maximal_value.graphviz | dot -Tsvg > maximal.svg
 
 digraph unix {
   size="12,10";

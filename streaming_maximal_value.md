@@ -9,3 +9,7 @@
 * number of presenters who even want to stream/ record is unknown
 
 
+## Parts List
+
+* $800 [Lecture Recorder x2](http://www.ebay.com/itm/Epiphan-Systems-Lecture-Recorder-x2-/182218218245?hash=item2a6d0d5b05:g:mqUAAOSwZVhWRKAa)
+
